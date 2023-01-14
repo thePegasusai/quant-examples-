@@ -34,5 +34,5 @@ print(data[['spread_1', 'z_score_1', 'position_1', 'pnl_1']])
 print(data[['spread_2', 'z_score_2', 'position_2', 'pnl_2']])
 
 # This is a basic example of statistical arbitrage using python. In this example, we are using two stocks and calculating the spread between them. We then perform the Augmented Dickey-Fuller test to check for stationarity of the spread. Next, we calculate the rolling mean and standard deviation, and use these to calculate the z-score. Finally, we plot the z-score and enter a long position when the z-score is below -1.5 and exit when the z-score is above 1.5.
-Please note that, this is a basic example and in practice it could be more complex, a lot of other factors need to be taken into consideration before making any trade.
+# Please note that, this is a basic example and in practice it could be more complex, a lot of other factors need to be taken into consideration before making any trade.
 
